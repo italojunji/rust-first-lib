@@ -9,7 +9,7 @@ pub mod calc_with_1 {
     ///    assert_eq!(4, sum_plus_one(1,2));
     ///    assert_eq!(1, sum_plus_one(0,0));
     pub fn sum_plus_one(x: u8, y: u8) -> u8 {
-        return x + y + 1;
+        x + y + 1
     }
 
     ///    # This function subtracts and then decreases minus 1
@@ -27,7 +27,7 @@ pub mod calc_with_1 {
             return 0;
         }
 
-        return x - y - 1;
+        x - y - 1
     }
 }
 
